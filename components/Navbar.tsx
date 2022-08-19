@@ -7,11 +7,16 @@ import { BiSearch } from 'react-icons/bi';
 import { IoMdAdd } from 'react-icons/io';
 import { GoogleLogin, googleLogout } from '@react-oauth/google';
 
-
-
 const Navbar = () => {
     return (
-        <div>Navbar</div>
+        <div>
+            <Link href="/">
+                <div>
+                    <Image src="*"
+                    />
+                </div>
+            </Link>
+        </div>
     )
 }
 
