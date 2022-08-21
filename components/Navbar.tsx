@@ -7,12 +7,15 @@ import { BiSearch } from 'react-icons/bi';
 import { IoMdAdd } from 'react-icons/io';
 import { GoogleLogin, googleLogout } from '@react-oauth/google';
 
+import logo from "../utils/tiktik-logo.png";
+
 const Navbar = () => {
     return (
-        <div>
+        <div className='w-full flex justify-between items-center border-b-2 border-gray-200 py-2 px-4'>
             <Link href="/">
-                <div>
-                    <Image src="*"
+                <div className='w-20 md:w-30'>
+                    <Image src={logo}
+                        className='cursor-pointer '
                     />
                 </div>
             </Link>
