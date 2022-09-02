@@ -7,7 +7,6 @@ import Link from 'next/link'
 import GoogleLogin from 'react-google-login'
 import { AiOutlineMenu, AiFillHome } from 'react-icons/ai';
 import { ImCancelCircle } from 'react-icons/im';
-//cosas
 const Sidebar = () => {
 
     const [showSidebar, setShowSidebar] = useState(true);
