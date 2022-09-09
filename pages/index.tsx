@@ -2,11 +2,11 @@ import type { NextPage } from 'next'
 import axios from 'axios'
 
 
-//just testing some things
+
 
   t Home: NextPage = () => {
-  turn (
-  <div className=''>
+  turn(
+    <div className=''>
     </div>
   )
 }
