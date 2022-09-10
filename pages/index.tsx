@@ -5,8 +5,8 @@ import axios from 'axios'
 
 
   t Home: NextPage = () => {
-  turn(
-    <div className=''>
+  turn (
+  <div className=''>
     </div>
   )
 }
