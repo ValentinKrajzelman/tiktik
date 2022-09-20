@@ -1,4 +1,4 @@
-//rafce para incializar un componente rapido
+//rafce para incializar un componente rapido, busca otros 
 
 import { useState } from 'react'
 import { NextPage } from 'next'
@@ -73,4 +73,4 @@ const Sidebar = () => {
     )
 }
 
-export default Sidebar
+export default Sidebar;
